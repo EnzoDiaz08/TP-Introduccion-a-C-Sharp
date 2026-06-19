@@ -9,6 +9,7 @@ namespace Figuras
     public partial class Form1 : Form
     {
         Figura[] figuras;
+        Random rnd = new Random();
 
         public Form1()
         {
@@ -19,9 +20,9 @@ namespace Figuras
                 new Rectangulo(30,50),
                 new Cuadrado(45),
             };
-            figuras[0].Color = Color.Red;
-            figuras[1].Color = Color.Green;
-            figuras[2].Color = Color.Blue;
+            figuras[0].Color = this.colorAleatorio();
+            figuras[1].Color = this.colorAleatorio();
+            figuras[2].Color = this.colorAleatorio();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -34,6 +35,15 @@ namespace Figuras
                 figuras[i].Dibujar(pen,gr,i * 100, 50);
             }
 
+        }
+
+        private Color colorAleatorio()
+        {
+            return Color.FromArgb(NumeroAleatorioColor(), NumeroAleatorioColor(), NumeroAleatorioColor());
+        }
+        private int NumeroAleatorioColor()
+        {
+            return rnd.Next(0, 256);
         }
     }
 }
