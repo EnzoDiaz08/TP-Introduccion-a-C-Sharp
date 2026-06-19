@@ -19,7 +19,9 @@ namespace Figuras
                 new Rectangulo(30,50),
                 new Cuadrado(45),
             };
-
+            figuras[0].Color = Color.Red;
+            figuras[1].Color = Color.Green;
+            figuras[2].Color = Color.Blue;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -28,6 +30,7 @@ namespace Figuras
             Pen pen = new Pen(Color.Red);
             for (int i = 0; i < figuras.Length; i++)
             {
+                pen.Color = figuras[i].Color;
                 figuras[i].Dibujar(pen,gr,i * 100, 50);
             }
 
