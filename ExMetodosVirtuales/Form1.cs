@@ -39,11 +39,23 @@ namespace Figuras
 
         private Color colorAleatorio()
         {
-            return Color.FromArgb(NumeroAleatorioColor(), NumeroAleatorioColor(), NumeroAleatorioColor());
+           int r, g, b;
+           do
+            {
+                r = numeroAleatorioColor();
+                g = numeroAleatorioColor();
+                b = numeroAleatorioColor();
+            } while (luminosidadWCAG(r, g, b) > 140); 
+            return Color.FromArgb(r, g, b);
         }
-        private int NumeroAleatorioColor()
+        private int numeroAleatorioColor()
         {
             return rnd.Next(0, 256);
+        }
+
+        private double luminosidadWCAG(int R, int G, int B)
+        {
+            return (0.2126 * R) + (0.7152 * G) + (0.0722 * B); //<- Formula de Luminancia Relativa. Version simplificada de las norms WCAG
         }
     }
 }
