@@ -7,3 +7,5 @@ C:\Users\tani\Desktop\clase.xx.03.11.2017\ExMetodosVirtuales\obj\x86\Debug\ExMet
 C:\Users\tani\Desktop\clase.xx.03.11.2017\ExMetodosVirtuales\obj\x86\Debug\ExMetodosVirtuales.csproj.GenerateResource.Cache
 C:\Users\tani\Desktop\clase.xx.03.11.2017\ExMetodosVirtuales\obj\x86\Debug\ExMetodosVirtuales.exe
 C:\Users\tani\Desktop\clase.xx.03.11.2017\ExMetodosVirtuales\obj\x86\Debug\ExMetodosVirtuales.pdb
+C:\Users\enzom\Documents\Github\TP-Introduccion-a-C-Sharp\ExMetodosVirtuales\obj\x86\Debug\ExMetodosVirtuales.exe
+C:\Users\enzom\Documents\Github\TP-Introduccion-a-C-Sharp\ExMetodosVirtuales\obj\x86\Debug\ExMetodosVirtuales.pdb

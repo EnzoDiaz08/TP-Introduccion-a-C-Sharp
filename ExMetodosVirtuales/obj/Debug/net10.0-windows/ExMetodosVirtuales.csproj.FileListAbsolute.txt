@@ -1,0 +1,17 @@
+C:\Users\enzom\Documents\Github\TP-Introduccion-a-C-Sharp\ExMetodosVirtuales\bin\Debug\net10.0-windows\ExMetodosVirtuales.exe
+C:\Users\enzom\Documents\Github\TP-Introduccion-a-C-Sharp\ExMetodosVirtuales\bin\Debug\net10.0-windows\ExMetodosVirtuales.dll.config
+C:\Users\enzom\Documents\Github\TP-Introduccion-a-C-Sharp\ExMetodosVirtuales\bin\Debug\net10.0-windows\ExMetodosVirtuales.deps.json
+C:\Users\enzom\Documents\Github\TP-Introduccion-a-C-Sharp\ExMetodosVirtuales\bin\Debug\net10.0-windows\ExMetodosVirtuales.runtimeconfig.json
+C:\Users\enzom\Documents\Github\TP-Introduccion-a-C-Sharp\ExMetodosVirtuales\bin\Debug\net10.0-windows\ExMetodosVirtuales.dll
+C:\Users\enzom\Documents\Github\TP-Introduccion-a-C-Sharp\ExMetodosVirtuales\bin\Debug\net10.0-windows\ExMetodosVirtuales.pdb
+C:\Users\enzom\Documents\Github\TP-Introduccion-a-C-Sharp\ExMetodosVirtuales\obj\Debug\net10.0-windows\Figuras.Form1.resources
+C:\Users\enzom\Documents\Github\TP-Introduccion-a-C-Sharp\ExMetodosVirtuales\obj\Debug\net10.0-windows\ExMetodosVirtuales.Properties.Resources.resources
+C:\Users\enzom\Documents\Github\TP-Introduccion-a-C-Sharp\ExMetodosVirtuales\obj\Debug\net10.0-windows\ExMetodosVirtuales.csproj.GenerateResource.cache
+C:\Users\enzom\Documents\Github\TP-Introduccion-a-C-Sharp\ExMetodosVirtuales\obj\Debug\net10.0-windows\ExMetodosVirtuales.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\enzom\Documents\Github\TP-Introduccion-a-C-Sharp\ExMetodosVirtuales\obj\Debug\net10.0-windows\ExMetodosVirtuales.csproj.CoreCompileInputs.cache
+C:\Users\enzom\Documents\Github\TP-Introduccion-a-C-Sharp\ExMetodosVirtuales\obj\Debug\net10.0-windows\ExMetodosVirtuales.sourcelink.json
+C:\Users\enzom\Documents\Github\TP-Introduccion-a-C-Sharp\ExMetodosVirtuales\obj\Debug\net10.0-windows\ExMetodosVirtuales.dll
+C:\Users\enzom\Documents\Github\TP-Introduccion-a-C-Sharp\ExMetodosVirtuales\obj\Debug\net10.0-windows\refint\ExMetodosVirtuales.dll
+C:\Users\enzom\Documents\Github\TP-Introduccion-a-C-Sharp\ExMetodosVirtuales\obj\Debug\net10.0-windows\ExMetodosVirtuales.pdb
+C:\Users\enzom\Documents\Github\TP-Introduccion-a-C-Sharp\ExMetodosVirtuales\obj\Debug\net10.0-windows\ExMetodosVirtuales.genruntimeconfig.cache
+C:\Users\enzom\Documents\Github\TP-Introduccion-a-C-Sharp\ExMetodosVirtuales\obj\Debug\net10.0-windows\ref\ExMetodosVirtuales.dll
