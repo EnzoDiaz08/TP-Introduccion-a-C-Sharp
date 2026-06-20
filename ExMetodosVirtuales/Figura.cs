@@ -10,6 +10,11 @@ namespace Figuras
         { 
         
         }
+
+        public virtual void escalarMedidas(int muliplicador)
+        {
+            
+        }
     }
 
 
@@ -37,6 +42,12 @@ namespace Figuras
             // DrawPolygon dibuja un poligono dado un conjunto de puntos y un lapiz
             graphics.DrawPolygon(pen, points);
         }
+
+        public override void escalarMedidas(int multiplicador)
+        {
+            alto = alto * multiplicador;
+            ancho = ancho * multiplicador;
+        }
     }
 
     public class Cuadrado : Rectangulo
@@ -61,6 +72,70 @@ namespace Figuras
         public override void Dibujar(Pen pen, Graphics graphics, int x, int y)
         {
             graphics.DrawEllipse(pen,x,y, radio, radio);
+        }
+
+        public override void escalarMedidas(int multiplicador)
+        {
+            radio = radio * multiplicador;
+        }
+    }
+
+    public class TrianguloEquilatero : Figura
+    {
+        protected float lado;
+        
+        // Constructor
+        public TrianguloEquilatero(float lado) 
+        {
+            this.lado = lado;
+        }
+
+        public override void Dibujar(Pen pen, Graphics graphics, int x, int y)
+        {
+            PointF[] points = new PointF[3]
+            { 
+                new PointF(x, y), 
+                new PointF(x+lado, y), 
+                new PointF(x+ (lado / 2f), y + (float)(0.866 * lado)), 
+            };
+            // DrawPolygon dibuja un poligono dado un conjunto de puntos y un lapiz
+            graphics.DrawPolygon(pen, points);
+        }
+
+        public override void escalarMedidas(int multiplicador)
+        {
+            lado = lado * multiplicador;
+        }
+    }
+
+    public class TrianguloIsoceles : Figura
+    {
+        protected float lado;
+        protected float altura;
+        
+        // Constructor
+        public TrianguloIsoceles(float lado, float altura) 
+        {
+            this.lado = lado;
+            this.altura = altura;
+        }
+
+        public override void Dibujar(Pen pen, Graphics graphics, int x, int y)
+        {
+            PointF[] points = new PointF[3]
+            { 
+                new PointF(x, y), 
+                new PointF(x+lado, y), 
+                new PointF(x+ (lado / 2f), y + altura), 
+            };
+            // DrawPolygon dibuja un poligono dado un conjunto de puntos y un lapiz
+            graphics.DrawPolygon(pen, points);
+        }
+
+        public override void escalarMedidas(int multiplicador)
+        {
+            lado = lado * multiplicador;
+            altura = altura * multiplicador;
         }
     }
 }

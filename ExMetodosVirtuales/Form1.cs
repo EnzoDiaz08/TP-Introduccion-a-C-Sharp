@@ -14,15 +14,19 @@ namespace Figuras
         public Form1()
         {
             InitializeComponent();
-            figuras = new Figura[3] 
+            figuras = new Figura[5] 
             {
+                new TrianguloEquilatero(45),
+                new TrianguloIsoceles(30, 50),
                 new Circulo(60),
                 new Rectangulo(30,50),
-                new Cuadrado(45),
+                new Cuadrado(45)
             };
             figuras[0].Color = this.colorAleatorio();
             figuras[1].Color = this.colorAleatorio();
             figuras[2].Color = this.colorAleatorio();
+            figuras[3].Color = this.colorAleatorio();
+            figuras[4].Color = this.colorAleatorio();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -32,6 +36,7 @@ namespace Figuras
             for (int i = 0; i < figuras.Length; i++)
             {
                 pen.Color = figuras[i].Color;
+                figuras[i].escalarMedidas(i+1);
                 figuras[i].Dibujar(pen,gr,i * 100, 50);
             }
 
